@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="img/avatar-perfil.png" alt="Avatar de Alexandre" srcset="">
-    <p>Eu sou Alexandre Vieira De Melo</p>
+    <header class="container text-center">
+    <img src="img/avatar-perfil.png" class="rounded-circle" width="150" height="150" alt="Avatar de Alexandre" srcset="">
+    <p class="lead">Eu sou Alexandre Vieira De Melo</p>
     <h1>Eu estou estudando programação base</h1>
     <p>Sou aluno do ensino médio.
         E eu estou recebendo conhecimento constante 
@@ -16,10 +17,27 @@
         Atualmente, estou aprendendo a fazer web sites
         através da lìngua de programação Html e Css.</p>
         <div>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>JavaScript</p>
-            <p>Scratch</p>
+            <p class="badge text-bg-secondary">HTML</p>
+            <p class="badge text-bg-secondary">CSS</p>
+            <p class="badge text-bg-secondary">JavaScript</p>
+            <p class="badge text-bg-secondary">Scratch</p>
         </div>
+    </header>
+    <main class="contaianer">
+        <h2>Meus Projetos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto de biblioteca">
+                    <div class="card-body">
+                    <h5 class="card-title">Minha biblioteca: uma webpage personalizada</h5>
+                    <p class="card-text">Some wuick example text to build on
+                        the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
